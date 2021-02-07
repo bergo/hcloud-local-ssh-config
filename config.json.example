@@ -1,0 +1,19 @@
+{
+    "projects": [
+        {
+            "name": "project-name",
+            "token": "hcloud-token",
+            "default_key": "~/.ssh/id_rsa",
+            "default_user": "root",
+            "default_additional": "",
+            "custom_map": [
+                {
+                    "name": "srv-xyz-01",
+                    "user": "",
+                    "key": "",
+                    "additional": ""
+                }
+            ]
+        }
+    ]
+}
