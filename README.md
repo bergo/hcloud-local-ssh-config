@@ -32,5 +32,28 @@ Set the projects with name and token in config.json
     -ssh-config-file string
             ssh configuration file (default "~/.ssh/config")
 
+## Result content
+
+The tool adds or replace all servers as host entries in your ssh config file. It uses the public IPv4 as hostname.
+
+Example output:
+
+    ...
+
+    ##START HCLOUD-REPLACE ##
+
+    Host srv-acme-prod-01
+        User root
+        HostName 10.0.0.1
+
+    Host srv-acme-prod-02
+        User ubuntu
+        HostName 10.0.0.2
+        IdentityFile ~/.ssh/custom_rsa
+
+    ##END HCLOUD-REPLACE ##
+
+    ...
+
 ## License
 MIT - Stefan Berger
