@@ -4,7 +4,7 @@ The tools helps to generate a local ssh config file based on your hetzner cloud 
 
 It's able perform multiple projects and and set default and custom server configuration per project.
 
-The result configuration content can is attached or replaced to a existing config file. It is using generated markers to identify the generated content for a later replacement.
+The result configuration content is attached or replaced to a existing config file. It is using generated markers to identify the generated content for a later replacement.
 
 ## Install
 
